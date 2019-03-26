@@ -1,0 +1,87 @@
+/* color scheme */
+/* --orange: #FF8400;
+    --green: #78B214;
+    --purple: #8D6CAB;
+    --dark: #170326;
+    --white: #FFFFFF;
+    --pantone448c: #4A412A; */
+:root {
+    --orange: #FF8400;
+    --green: #1DB954;
+    --purple: #8D6CAB;
+    --linkedin-blue: #0077B5;
+    --dark: #170326;
+    --white: #FFFFFF;
+    --pantone448c: #4A412A;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--dark);
+}
+
+/* excuse vw magic numbers */
+.word-mark {
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 10.5vw;
+    margin: auto;
+    padding: 1vw;
+}
+
+.icons {
+    text-align: center;
+}
+
+.link-icon {
+    display: inline-block;
+    font-size: 6vw;
+    padding: 4vw;
+    transition: transform .3s;
+}
+
+.link-icon:hover {
+    transform: scale(1.20)
+}
+
+.link-icon svg {
+    height: 7vw;
+    width: 7vw;
+}
+
+.e-mail-link {
+    text-decoration: none;
+    color: var(--dark)
+}
+
+/* flips the m horizontally */
+.m-word-mark {
+    display: inline-block;
+    vertical-align: top;
+    transform: scaleX(-1);
+    -ms-filter: m-word-mark;
+    filter: m-word-mark;
+}
+
+
+/*vertical alignment*/
+.outer-container {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.middle-container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
