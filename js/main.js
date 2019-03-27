@@ -5,7 +5,7 @@ function randomizeClassColor(id) {
             document.getElementById(id).style.color = 'var(--orange)';
             break;
         case 1:
-            document.getElementById(id).style.color = 'var(--green)';
+            document.getElementById(id).style.color = 'var(--spotify-green)';
             break;
         case 2:
             document.getElementById(id).style.color = 'var(--purple)';
