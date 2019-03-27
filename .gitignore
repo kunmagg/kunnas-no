@@ -1,6 +1,3 @@
 .vscode
 favicon/.DS_store
 .DS_Store
-
-# local source folder for svg-files embedded in html
-/img
