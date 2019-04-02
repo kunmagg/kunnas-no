@@ -1,6 +1,6 @@
 function randomizeClassColor(id) {
-    // random float between 0-1 * big prime modulo 4
-    switch (Math.floor(Math.random() * 9929) % 4) {
+    // random float between 0-1 * 4 gives uniform distribution 0-3
+    switch (Math.floor(Math.random() * 4)) {
         case 0:
             document.getElementById(id).style.color = 'var(--orange)';
             break;
